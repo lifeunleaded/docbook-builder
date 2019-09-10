@@ -1,0 +1,36 @@
+div.navheader, div.navfooter, div.book, div.chapter, div.section, div.refentry {
+	align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1.title, h2.title, h3.title {
+    font-family: sans-serif;
+    color: #8B5E8F;
+}
+
+h6.title, h5.title {
+    font-size: 15px;
+}
+
+td.grey, th.grey { 
+    background-color: #EEEEEE; 
+    font-family: sans-serif;
+}
+
+div.seglistitem {
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 20px; 
+    }
+
+div.seg {
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-style: normal;
+    }
+
+span.segtitle {
+    font-style: bold;
+    }

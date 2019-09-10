@@ -1,0 +1,15 @@
+image: lifeunleaded/dbbuilder
+
+stages:
+  - docbuild
+
+build:
+  stage: docbuild
+  script:
+    - mkdir -p buildtmp buildcache public output
+    - build/builder.py $CI_COMMIT_REF_NAME
+  artifacts:
+    paths:
+    - output/
+    expire_in: 1 day
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book>
+<book version="5.0" xml:id="XXXguide" xml:lang="en"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xila="http://www.w3.org/2001/XInclude/local-attributes"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:scroll="http://www.k15t.com/scroll-docbook/extensions"
+      xmlns:ns5="http://www.w3.org/1999/xhtml"
+      xmlns:ns4="http://www.w3.org/1998/Math/MathML"
+      xmlns:ns3="http://www.w3.org/2000/svg"
+      xmlns:ns="http://docbook.org/ns/docbook">
+  <info>
+    <title>Testing GitLab CI</title>
+
+    <subtitle>Autobuilding</subtitle>
+
+    <author>
+      <orgname>The company</orgname>
+
+      <uri>http://www.example.com</uri>
+    </author>
+
+    <copyright>
+      <year>2001-2199</year>
+
+      <holder>The company</holder>
+    </copyright>
+
+    <abstract>
+      <para>Guide to testing GitLab CI jobs</para>
+    </abstract>
+
+    <revhistory>
+      <revision>
+        <revnumber>0.1 (DRAFT)</revnumber>
+
+        <date>20XX-XX-XX</date>
+
+        <authorinitials>ERK</authorinitials>
+
+        <revremark><remark>XXX</remark></revremark>
+      </revision>
+    </revhistory>
+  </info>
+  <chapter>
+    <title>Lorem ipsum</title>
+    <para>Nothing to see here, move along.</para>
+    <para>Content change.</para>
+    <para>Content change 2.</para>
+    <para>Content change 3.</para>
+    <para>Content change 4.</para>
+    <para>Content change 5.</para>
+  </chapter>
+
+  <index/>
+</book>
