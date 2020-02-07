@@ -138,7 +138,7 @@ for builtbook in built:
     published.write('<p><a href="{}/public/html/bk01-FSet.html">Public version</a>'.format(builtbook))
     published.write('(<a href="{}/public/{}.zip">ZIP archive</a>)</p>'.format(builtbook,builtbook))
     published.write('<p><a href="{}/internal/html/bk01-FSet.html">Internal version</a></p>'.format(builtbook))
-    published.write('<p>Last build {} due to <a href="https://git.sandvine.com/docs/xmldocs/commit/{}">{}</a></p></li>'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), hc.hexsha, hc.hexsha))
+    published.write('<p>Last build {} due to <a href="https://gitlab.com/lifeunleaded/docbook-builder/commit/{}">{}</a></p></li>'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), hc.hexsha, hc.hexsha))
                     
 published.write("</ul></body></html>")
 published.close()

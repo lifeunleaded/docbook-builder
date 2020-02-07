@@ -3,7 +3,7 @@ image: lifeunleaded/dbbuilder
 stages:
   - docbuild
 
-build:
+pages:
   stage: docbuild
   script:
     - mkdir -p buildtmp buildcache public output
