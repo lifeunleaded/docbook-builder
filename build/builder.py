@@ -118,16 +118,14 @@ for book in buildlist:
     justbuilt=open('buildtmp/docname','r').readlines()[0].rstrip('\n')
     if justbuilt not in built:
         built.append(justbuilt)
-if not os.path.exists('public/{}/index.html'.format(thisbranch)):
-    if not os.path.exists('public/{}'.format(thisbranch)):
-        os.mkdir('public/{}'.format(thisbranch))
-    published = open('public/{}/index.html'.format(thisbranch),'w')
+if not os.path.exists('public/index.html'):
+    published = open('public/index.html','w')
     published.write("<html><head/><body><ul>")
 else:
-    oldpublished = open('public/{}/index.html'.format(thisbranch),'r')
+    oldpublished = open('public/index.html','r')
     text = oldpublished.readlines()[-1].replace('</ul></body></html>','')
     oldpublished.close()
-    published = open('public/{}/index.html'.format(thisbranch),'w')
+    published = open('public/index.html','w')
     published.write(text)
 sys.stderr.write('Built:\n')
 sys.stderr.write('{}\n'.format(','.join(built)))

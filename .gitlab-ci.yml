@@ -11,5 +11,6 @@ pages:
   artifacts:
     paths:
     - output/
+    - public/
     expire_in: 1 day
 
