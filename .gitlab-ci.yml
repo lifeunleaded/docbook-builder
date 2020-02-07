@@ -3,6 +3,11 @@ image: lifeunleaded/dbbuilder
 stages:
   - docbuild
 
+cache:
+  paths:
+  - buildcache/
+  - public/
+
 pages:
   stage: docbuild
   script:
